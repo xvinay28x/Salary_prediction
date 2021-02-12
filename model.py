@@ -16,5 +16,5 @@ model.fit(x_train,y_train)
 import pickle
 pickle.dump(model,open("model.pkl","wb"))
 
-x = model.predict([[19]])
+x = model.predict([[2]])
 print(x)
